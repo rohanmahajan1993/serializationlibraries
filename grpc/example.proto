@@ -1,9 +1,9 @@
-synthax = "proto3"
+syntax = "proto3";
 
-package example
+package example;
 
 service ExampleService {
-  rpc ExampleMethod (ExampleRequest) returns (ExampleReply) {}
+  rpc ExampleMethod (ExampleRequest) returns (ExampleReply) {};
 }
 
 message ExampleRequest {
