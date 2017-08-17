@@ -1,0 +1,15 @@
+synthax = "proto3"
+
+package example
+
+service ExampleService {
+  rpc ExampleMethod (ExampleRequest) returns (ExampleReply) {}
+}
+
+message ExampleRequest {
+  string name = 1;
+}
+
+message ExampleReply {
+  string name = 1;
+}
